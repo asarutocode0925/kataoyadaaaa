@@ -1,0 +1,25 @@
+{
+  "name": "edo-bakumatsu-gunfight-io",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "server": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "test": "node --test game.test.js settings.test.js server.test.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5",
+    "three": "^0.160.0",
+    "vite": "^5.4.0"
+  }
+}
